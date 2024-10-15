@@ -1,7 +1,6 @@
-[
-    {"id": 101, "Name": "zethu", "Age": "24"},
-    {"id": 102, "Name": "yanga", "Age": "29"},
-    {"id": 103, "Name": "Buyi", "Age":"33"},
-    {"id": 104, "Name": "Sino", "Age": "20"},
-    {"id": 105, "Name": "Zino", "Age": "15"}
+[{"id":101,"Name":"zethu","Age":"24"},
+{"id":102,"Name":"yanga","Age":"29"},
+{"id":103,"Name":"Buyi","Age":"33"},
+{"id":104,"Name":"Sino","Age":"20"},
+{"id":105,"Name":"Zino","Age":"15"}
 ]

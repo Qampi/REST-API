@@ -24,39 +24,6 @@ app.post('/items', (req, res) => {
       }
       // Process the request
     });
-//   const newItem = req.body;
-//   items.push(newItem);
-//   fs.writeFileSync(DATA, JSON.stringify(items));
-//   res.json(newItem);
-// });
-
-// // PUT /items/:id
-// app.put('/items/:id', (req, res) => {
-//   const id = parseInt((link (unavailable)),
-// );
-//   const index = items.findIndex(item => (link (unavailable)) === id);
-//   if (index !== -1) {
-//     items[index] = req.body;
-//     fs.writeFileSync(DATA, JSON.stringify(items));
-//     res.json(items[index]);
-//   } else {
-//     res.status(404).json({ message: 'Item not found' });
-//   }
-// });
-
-// // DELETE /items/:id
-// app.delete('/items/:id', (req, res) => {
-//   const id = parseInt((link (unavailable)));
-//   const index = items.findIndex(item => (link (unavailable)) === id);
-//   if (index !== -1) {
-//     items.splice(index, 1);
-//     fs.writeFileSync(DATA, JSON.stringify(items));
-//     res.json({ message: 'Item deleted' });
-//   } else {
-//     res.status(404).json({ message: 'Item not found' });
-//   }
-// });
-
 app.put('/items/:id', (req, res) => {
     const id = parseInt(req.params.id); // Retrieve ID from URL params
     const index = items.findIndex(item => item.id === id); // Assuming item has an `id` field
